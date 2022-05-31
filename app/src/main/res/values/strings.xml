@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">AplicatieFinala</string>
+    <string name="string_user_name">Nume Utilizator</string>
+    <string name="string_user_age">Vârsta</string>
+    <string name="switch_state">Permite procesarea datelor</string>
+    <string name="btn_afisare">Afișare</string>
+    <string name="btn_detalii">Detalii</string>
+    <string name="btn_adaugare">Adaugă</string>
+    <string name="ecanSecundar">Ecran2</string>
+    <string name="firstName">Capitolul:</string>
+    <string name="lastName">Materia:</string>
+    <string name="age">Partea:</string>
+    <string name="defoult_name">-------</string>
+    <string name="Motivatie">Daca ai nevoie de putină motivație :)</string>
+    <string name="btn_BACK">Înapoi la pagina principală</string>
+
+
+    <string name="Next">Next</string>
+    <string name="Intrebare">Intrebari</string>
+    <string name="Adevarat">True</string>
+    <string name="Fals">False</string>
+    <string name="IntrebareAdev">Bravo, ai raspuns corect!</string>
+    <string name="IntrebareFals">Imi pare rau, ai gresit raspunsul :(</string>
+    <string name="Corect">Raspunsuri corecte</string>
+    <string name="Gresit">Raspunsuri greșite</string>
+
+
+    <string name="Intreabare1">Având progresia aritmetică cu primii 5 termeni definiți prin recurența: a1 = 2, a2 = 3, an+2 = 3an+1 - 2an, aceștia sunt: a1 = 2, a2 = 3, a3 = 5, a4 = 9, a5 = 15?</string>
+    <string name="Intreabare2">Fie progresia aritmetică cu a3 = 5 și a8 = 10, a1 este egal cu 3? </string>
+    <string name="Intreabare3">Având progresia aritmetică cu termenii 2x**2+2x+3, 4x**2+2x-1, 6x**2-1. X este egal cu 2?</string>
+    <string name="Intreabare4">Având progresia geometrică, b1 este egal cu 4? Știind că S6 = 189 și q = 2?</string>
+    <string name="Intreabare5">Având progresia geometrică cu termenii consecutivi x-2 și 5x+10. X este egal cu 6?</string>
+    <string name="Intreabare6">Fie funcția f: [-1,3] cu valori în R, f(x) = 2x-5, mulțimea valorilor A ale lui f este [-7,-1]?</string>
+    <string name="Intreabare7">Fie funcția f: R cu valori în R, f(x) = 2x+3, rezultatul inecuației f(x) + f(-1) mai mic sau egal cu -2 este [-infinit, 3]?</string>
+
+
+    <string name="Intreabare21">Se consideră mulțimea A = { radical din 6, -2, -1/3, 1/2, 2, 3}. Numărul elementelor din mulțimea A intersectat cu multimea Q este 5? </string>
+    <string name="Intreabare22">Fie numărul rațional 2/11 scris sub forma 2/11 = 0,a1a2a4a4..... . Rezultatul calculului a1+a2+a3+...+a10 este 80? </string>
+    <string name="Intreabare23">Fie numerele A = (1+radical din 3)/(1-radical din 3), B = 2/(1-radical din 2), C = -2. Ordonarea crescatoare a numerelor este B mai mic caA mai mic ca C? </string>
+    <string name="Intreabare24">Dacă [x] - partea întreagă a lui x și {x} - partea fracționară a lui x. Rezultatul calculului [-2.8284] - {-2.8} este -3.2 ?  </string>
+    <string name="Intreabare25">Dacă [x] - partea întreagă a lui x, rezultatul ecuației [x]+ 3[x+2] = 10 este 1? </string>
+    <string name="Intreabare26">Având mulțimea Z, rezultatul ecuației 2x**2 + 5x - 3 = 0 este -3 ? </string>
+    <string name="Intreabare27">Având mulțimile A = {x inclus în R | x**2 - 2x - 3 = 0}, b = {x inclus în Z | x**2 - x - 2 = 0}. A - B este egal cu {2} ? </string>
+
+
+    <string name="Intreabare31">Fie punctele A, B,C coliniare. Stiind ca raportul dintre vectorul BC și vectorul AC este  egal cu 3. Afirmația: C se află între B și A este: ? </string>
+    <string name="Intreabare32">Dacă simplificăm expresia vectorială: 2AB-BA-2CB-CD+BD, răspunsul este egal cu: 2AB+AC? </string>
+    <string name="Intreabare33">Știind că triunghiul ABC este isoscel cu AB = AC, după aplciarea teoriei, dacă A(3,M), B(-1,1), C(2,2) M este egal cu -6? </string>
+    <string name="Intreabare34">Știind că în triunghiu ABC M este inclus pe BC astfel încat raportul dintre MB și CM este 3. Valoare vectorului AM, în funcție de vectorii AB și AC este: 3/4*AB+1/4*AC ? </string>
+    <string name="Intreabare35">Având coordonatele carteziene XOY cu punctele M(2,-1), A(1,0), B(4,1). Lungimea vectorului MA+MB ( |MA+MB| ) este: 10? </string>
+    <string name="Intreabare36"> </string>
+    <string name="Intreabare37"> </string>
+    <string name="Intreabare38"> </string>
+    <string name="Intreabare39"> </string>
+
+    <string name="Intreabare41">Rezultatul calculului a = 2(sin 75 - sin 15) este radical din 2? </string>
+    <string name="Intreabare42">Rezultatul calculului a = sin 135 + tg 45 + cod 45 este 1? </string>
+    <string name="Intreabare43">Fie un x inclus in intervalul (0, 90 grade) și tg x = 3. Rezultatul lui a = sin 2x este 1/9 ? </string>
+    <string name="Intreabare44">Ținând cont că π/5 este în cadranul I. Valoarea calculată pentru cos π/5 și sin cos π/5 este (1+radical din 5)/4 ? </string>
+    <string name="Intreabare45">Putem afirma că tg(a+b) este egal ca formulă cu (tg a + tg b)/(1- tg a * tg b) ? </string>
+    <string name="Intreabare46">Având triunghiul ABC cu AB = 6, AC = 5 și unghiul lui A este de 60 de grade. Lungimea laturei BC este egală cu 31/2? </string>
+    <string name="Intreabare47">Având triunghiul ABC cu AB = 2, AC = 3, BC = 4. Lungimea medianei din punctul A după calculare este 5?</string>
+    <string name="Intreabare48">După calcularea funcției cos (214π/3) + tg (229π/3), rezultatul este egal cu -(1.2) + 3.3? </string>
+    <string name="Intreabare49">După calcularea funcției sin (418π/3) - cos (-247π/6) + tg(815π/6), rezultatul este egal cu -1/3,3? </string>
+
+
+    <string name="TrueQ">Raspunsul este corect!</string>
+    <string name="FalseQ">Raspunsul este incorect :(</string>
+
+
+</resources>

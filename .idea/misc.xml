@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/drawable/LogoCerc_background.xml" value="0.4595" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/drawable/gradient_statusbar.xml" value="0.4595" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/drawable/ic_launcher_background.xml" value="0.4595" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_bun_venit.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_detalii.xml" value="0.5" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_ecran2.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_ecran3.xml" value="0.25" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_ecran4.xml" value="0.25" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_ecran5.xml" value="0.521875" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_main.xml" value="0.5359375" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_mate_info.xml" value="0.521875" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_motivatie.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_pdf.xml" value="0.4875" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_pdf2.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_pdf3.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_pdf4.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_pedagogic.xml" value="0.5302083333333333" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_stinte.xml" value="0.5302083333333333" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_tehnologic.xml" value="0.5302083333333333" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_test2.xml" value="0.42552083333333335" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_test3.xml" value="0.5203125" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_test4.xml" value="0.534375" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/activity_teste_verificare.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/item.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/item_lista.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/layout/slider_item.xml" value="0.25962512664640325" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/mipmap-anydpi-v26/LogoCerc.xml" value="0.1" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.4595" />
+        <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.4595" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
