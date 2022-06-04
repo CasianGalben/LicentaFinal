@@ -41,6 +41,7 @@ public class Ecran3 extends AppCompatActivity {
         list = new ArrayList<>();
         mDatabaseReference = FirebaseDatabase.getInstance().getReference("Users");
         getUsers(mDatabaseReference);
+        getSupportActionBar().hide();
 
 
         btn_detaliiEC3.setOnClickListener(new View.OnClickListener() {

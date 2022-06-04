@@ -9,23 +9,33 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.Toolbar;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 public class MainActivity extends AppCompatActivity {
     private View view;
     private final static String TAG = "APP";
+    java.util.Timer timer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
         Button btnStart = findViewById(R.id.btn_start);
-        btnStart.setOnClickListener(new View.OnClickListener() {
+
+
+        timer = new Timer();
+        timer.schedule(new TimerTask() {
             @Override
-            public void onClick(View view) {
+            public void run() {
                 Intent intent = new Intent(MainActivity.this,BunVenit.class);
                 startActivity(intent);
                 finish();
             }
-        });
+        },1500);
+
+
     }
 
 

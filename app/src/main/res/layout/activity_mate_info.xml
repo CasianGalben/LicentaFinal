@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backsec"
     tools:context=".MateInfo">
 
     <com.smarteist.autoimageslider.SliderView
         android:id="@+id/image_slider"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_height="700dp"
         app:sliderAnimationDuration="600"
         app:sliderAutoCycleDirection="back_and_forth"
         app:sliderAutoCycleEnabled="true"

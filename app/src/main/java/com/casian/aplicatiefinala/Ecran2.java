@@ -26,6 +26,7 @@ public class Ecran2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ecran2);
+        getSupportActionBar().hide();
 
         btnAdd = findViewById(R.id.btnAdaugare);
         btnView = findViewById(R.id.btnAfisare);
@@ -66,7 +67,7 @@ public class Ecran2 extends AppCompatActivity {
             public void onClick(View view) {
 
                 afisareUsers(dataBaseHelper);
-                Toast.makeText(Ecran2.this,"Mai jos se poate observa lista de persoane înregistrate",Toast.LENGTH_LONG).show();
+                Toast.makeText(Ecran2.this,"Pentru a sterge un cont deja creat trebuie doar să apăsați pe acesta.",Toast.LENGTH_LONG).show();
 
             }
         });

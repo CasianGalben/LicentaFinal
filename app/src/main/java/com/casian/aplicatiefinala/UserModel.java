@@ -17,10 +17,10 @@ public class UserModel {
     @Override
     public String toString() {
         return
-                "Numele utilizatorului este: " + nume+
-                        ", cu vârsta de: " + varsta +
-                        " ani,"+
-                        " setând procesarea datelor pe: " + isActive;
+                "Nume utilizator: " + nume+
+                        "/ Vârsta: " + varsta +
+                        " ani/"+
+                        " Procesarea datelor este: " + isActive;
     }
     public int getId() {
         return id;

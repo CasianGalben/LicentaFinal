@@ -19,6 +19,7 @@ public class Ecran4 extends AppCompatActivity implements View.OnClickListener {
     private Button VerificareRaspunsCorect;
     private Button VerificareRaspunsGresit;
     private ImageButton Next;
+
     private TextView tvIntrebare;
     private int indexIntrebare = 0;
     private Intrebare[] mIntrebari = new Intrebare[]{  // creem o banca de obiecte de timpul intrebare care ia din string intrebarile
@@ -37,6 +38,7 @@ public class Ecran4 extends AppCompatActivity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_ecran4);
+        getSupportActionBar().hide();
 
         ButonAdevarat = findViewById(R.id.bt_True);
         ButonFals = findViewById(R.id.btn_False);

@@ -13,6 +13,7 @@ public class BunVenit extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bun_venit);
+        getSupportActionBar().hide();
         Button btnEcran2 = findViewById(R.id.btn_ecran2);
         btnEcran2.setOnClickListener(new View.OnClickListener() {
             @Override

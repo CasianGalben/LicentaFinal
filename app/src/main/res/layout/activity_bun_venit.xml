@@ -5,44 +5,114 @@
     android:id="@+id/my_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/math111"
     tools:context=".BunVenit">
 
-    <Button
-        android:id="@+id/btn_ecran2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginBottom="45dp"
-        android:text="Ecran2"
-        app:layout_constraintBottom_toTopOf="@+id/btn_ecran4"
-        app:layout_constraintStart_toStartOf="@+id/btn_ecran4" />
+    <LinearLayout
 
-    <Button
-        android:id="@+id/btn_ecran3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="65dp"
-        android:layout_marginBottom="247dp"
-        android:text="Ecran3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/btn_ecran4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:text="Ecran4"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_ecran5"
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/userr"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btn_ecran5" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
 
-    <Button
-        android:id="@+id/btn_ecran5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
-        android:text="Ecran5"
-        app:layout_constraintStart_toStartOf="@+id/btn_ecran3"
-        app:layout_constraintTop_toBottomOf="@+id/btn_ecran3" />
+        <Button
+            android:id="@+id/btn_ecran2"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/profile"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout6"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout6">
+
+        <Button
+            android:id="@+id/btn_ecran3"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/quizzzz"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+
+        <Button
+            android:id="@+id/btn_ecran4"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:textColor="@color/black"
+
+
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/finalexam"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout4">
+
+        <Button
+            android:id="@+id/btn_ecran5"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/math111" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -44,7 +44,7 @@ public class Test4 extends AppCompatActivity implements View.OnClickListener {
         Next = findViewById(R.id.UrmatoareaIntrebareBTN);
         VerificareRaspunsCorect = findViewById(R.id.verificareRaspunsCorect);
         VerificareRaspunsGresit = findViewById(R.id.verificareRaspunsGresit);
-
+        getSupportActionBar().hide();
         tvIntrebare = findViewById(R.id.tvIntrebari);
         tvIntrebare.setText(mIntrebari[0].getIntrebareText());
 

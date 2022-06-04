@@ -13,65 +13,84 @@
         android:theme="@style/Theme.AplicatieFinala">
         <activity
             android:name=".Pedagogic"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Tehnologic"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Stinte"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".MateInfo"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Ecran5"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Test4"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Test3"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Test2"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".TesteVerificare"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".PdfActivity4"
-            android:exported="false" />
+            android:exported="false"
+           />
         <activity
             android:name=".PdfActivity3"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".PdfActivity2"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Motivatie"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".PdfActivity"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Ecran4"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Detalii"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".BunVenit"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Ecran3"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".Ecran2"
-            android:exported="false" />
+            android:exported="false"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -13,7 +13,7 @@ public class TesteVerificare extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_teste_verificare);
-
+        getSupportActionBar().hide();
 
         Button Test1 = findViewById(R.id.Test1);
         Test1.setOnClickListener(new View.OnClickListener() {

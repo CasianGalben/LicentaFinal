@@ -11,6 +11,7 @@ import com.smarteist.autoimageslider.SliderView;
 public class MateInfo extends AppCompatActivity {
 
     SliderView sliderView;
+
     int[] images = {R.drawable.mateinfo1,
             R.drawable.mateinfo2,
             R.drawable.mateinfo3,
@@ -38,6 +39,7 @@ public class MateInfo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_pdf);
 
         sliderView = findViewById(R.id.image_slider);

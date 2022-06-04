@@ -14,7 +14,7 @@ public class Ecran5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ecran5);
 
-
+        getSupportActionBar().hide();
         Button mateinfo= findViewById(R.id.btn_mateinfo);
         mateinfo.setOnClickListener(new View.OnClickListener() {
             @Override

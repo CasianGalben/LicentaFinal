@@ -40,7 +40,7 @@ public class Tehnologic extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pdf);
-
+        getSupportActionBar().hide();
         sliderView = findViewById(R.id.image_slider);
 
         SliderAdapter sliderAdapter = new SliderAdapter(images);
