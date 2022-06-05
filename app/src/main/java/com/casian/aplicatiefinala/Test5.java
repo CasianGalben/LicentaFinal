@@ -93,9 +93,9 @@ public class Test5 extends AppCompatActivity implements View.OnClickListener{
     void finishQuiz(){
         String passStatus = "";
         if(score > totalQuestion*0.60){
-            passStatus = "Passed";
+            passStatus = "Trecut";
         }else{
-            passStatus = "Failed";
+            passStatus = "Picat";
         }
 
         new AlertDialog.Builder(this)

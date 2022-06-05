@@ -27,10 +27,7 @@ public class Test3 extends AppCompatActivity implements View.OnClickListener {
             new Intrebare(R.string.Intreabare33, true),
             new Intrebare(R.string.Intreabare34, false),
             new Intrebare(R.string.Intreabare35, false),
-            new Intrebare(R.string.Intreabare36, false),
-            new Intrebare(R.string.Intreabare37, false),
-            new Intrebare(R.string.Intreabare38, true),
-            new Intrebare(R.string.Intreabare39, true),
+
     };
 
     @Override
