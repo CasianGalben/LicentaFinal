@@ -54,4 +54,28 @@ public class TesteVerificare extends AppCompatActivity {
 
             }
         });
+
+        Button Test5 = findViewById(R.id.Test5);
+        Test5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TesteVerificare.this, Test5.class);
+                startActivity(intent);
+
+            }
+        });
+
+        Button Test6 = findViewById(R.id.Test6);
+        Test6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(TesteVerificare.this, Test6.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+
     }}
