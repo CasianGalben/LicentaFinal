@@ -33,22 +33,14 @@ public class Test5 extends AppCompatActivity implements View.OnClickListener{
         ansC = findViewById(R.id.ans_C);
         ansD = findViewById(R.id.ans_D);
         submitBtn = findViewById(R.id.submit_btn);
-
         ansA.setOnClickListener(this);
         ansB.setOnClickListener(this);
         ansC.setOnClickListener(this);
         ansD.setOnClickListener(this);
         submitBtn.setOnClickListener(this);
-
         totalQuestionsTextView.setText("Numărul total de întrebări: "+totalQuestion);
-
         loadNewQuestion();
-
-
-
-
     }
-
     @Override
     public void onClick(View view) {
 
@@ -97,15 +89,12 @@ public class Test5 extends AppCompatActivity implements View.OnClickListener{
         }else{
             passStatus = "Picat";
         }
-
         new AlertDialog.Builder(this)
                 .setTitle(passStatus)
                 .setMessage("Ai selectat "+ score+ " răspunsuri corecte"+" din "+ totalQuestion+" întrebări ")
                 .setPositiveButton("Restart quiz",(dialogInterface, i) -> restartQuiz() )
                 .setCancelable(false)
                 .show();
-
-
     }
 
     void restartQuiz(){
