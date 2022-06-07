@@ -97,15 +97,12 @@ public class Test6 extends AppCompatActivity implements View.OnClickListener{
         }else{
             passStatus = "Picat";
         }
-
         new AlertDialog.Builder(this)
                 .setTitle(passStatus)
                 .setMessage("Ai selectat "+ score+ " răspunsuri corecte"+" din "+ totalQuestion+" întrebări ")
                 .setPositiveButton("Restart quiz",(dialogInterface, i) -> restartQuiz() )
                 .setCancelable(false)
                 .show();
-
-
     }
 
     void restartQuiz(){

@@ -22,7 +22,7 @@ public class Ecran4 extends AppCompatActivity implements View.OnClickListener {
 
     private TextView tvIntrebare;
     private int indexIntrebare = 0;
-    private Intrebare[] mIntrebari = new Intrebare[]{  // creem o banca de obiecte de timpul intrebare care ia din string intrebarile
+    private Intrebare[] mIntrebari = new Intrebare[]{
             new Intrebare(R.string.Intreabare1, false),
             new Intrebare(R.string.Intreabare2, true),
             new Intrebare(R.string.Intreabare3, true),
@@ -30,7 +30,6 @@ public class Ecran4 extends AppCompatActivity implements View.OnClickListener {
             new Intrebare(R.string.Intreabare5, false),
             new Intrebare(R.string.Intreabare6, true),
             new Intrebare(R.string.Intreabare7, false),
-
     };
 
     @Override
@@ -110,18 +109,15 @@ public class Ecran4 extends AppCompatActivity implements View.OnClickListener {
         Log.d("INTREBARE", String.valueOf(indexIntrebare));
         //INTRAM IN ARRAY UL DE INTREBARI
         tvIntrebare.setText(mIntrebari[indexIntrebare].getIntrebareText());
-
     }
 
-    public void verificaRaspuns(boolean raspunsUtilizator) { //pt fiecare intrebare am luat raspunsul acestuia ( de la fiecare index)
+    public void verificaRaspuns(boolean raspunsUtilizator) {
         boolean raspunsIntrebare = mIntrebari[indexIntrebare].getRaspunsIntrebare();
         int mesaj = 0;
         if (raspunsIntrebare == raspunsUtilizator) {
             mesaj = R.string.IntrebareAdev;
-
         } else {
             mesaj = R.string.IntrebareFals;
-
         }
         Toast.makeText(getApplicationContext(), mesaj, Toast.LENGTH_SHORT).show();
     }

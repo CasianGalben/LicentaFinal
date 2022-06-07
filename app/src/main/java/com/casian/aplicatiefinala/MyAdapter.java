@@ -21,7 +21,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public MyAdapter(Context context,List<User> list){
         this.mContext = context;
         this.list=list;
-
     }
     @NonNull
     @Override
@@ -35,7 +34,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.firstName.setText(user.getFirstname());
         holder.lastName.setText(user.getLastname());
         holder.age.setText(user.getAge());
-
     }
     @Override
     public int getItemCount() {

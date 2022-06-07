@@ -23,19 +23,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
         Button btnStart = findViewById(R.id.btn_start);
-
-
         timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this,BunVenit.class);
+                Intent intent = new Intent(MainActivity.this,Ecran2.class);
                 startActivity(intent);
                 finish();
             }
         },1500);
-
-
     }
 
 
