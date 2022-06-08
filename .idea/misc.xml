@@ -34,6 +34,7 @@
         <entry key="..\:/Users/INTEL/Desktop/Facultate/Curs Android Strudio/AplicatieFinala/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.4595" />
         <entry key="..\:/Users/INTEL/Desktop/LicentaFinal/app/src/main/res/layout/activity_bun_venit.xml" value="0.55" />
         <entry key="..\:/Users/INTEL/Desktop/LicentaFinal/app/src/main/res/layout/activity_ecran2.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/LicentaFinal/app/src/main/res/layout/activity_ecran3.xml" value="0.50625" />
         <entry key="..\:/Users/INTEL/Desktop/LicentaFinal/app/src/main/res/layout/activity_main.xml" value="0.55" />
         <entry key="..\:/Users/INTEL/Desktop/LicentaFinal/app/src/main/res/layout/activity_mate_info.xml" value="0.55" />
         <entry key="..\:/Users/INTEL/Desktop/LicentaFinal/app/src/main/res/layout/activity_motivatie.xml" value="0.55" />
@@ -46,6 +47,7 @@
         <entry key="..\:/Users/INTEL/Desktop/LicentaFinal/app/src/main/res/layout/activity_teste_verificare.xml" value="0.55" />
         <entry key="..\:/Users/INTEL/Desktop/LicentaFinal/app/src/main/res/layout/item.xml" value="0.55" />
         <entry key="..\:/Users/INTEL/Desktop/LicentaFinal/app/src/main/res/layout/item_lista.xml" value="0.55" />
+        <entry key="..\:/Users/INTEL/Desktop/LicentaFinal/app/src/main/res/layout/slider_item.xml" value="0.50625" />
       </map>
     </option>
   </component>

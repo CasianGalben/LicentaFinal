@@ -94,6 +94,11 @@ public class Ecran3 extends AppCompatActivity {
                     startActivity(intent);
                 }
 
+                else if (lista.get(position).getLastname().equals("Implementare")){
+                    Intent intent = new Intent(Ecran3.this,PdfActivity4.class);
+                    startActivity(intent);
+                }
+
 
             }
         });

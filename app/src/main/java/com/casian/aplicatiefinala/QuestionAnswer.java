@@ -12,12 +12,12 @@ public class QuestionAnswer {
     };
 
     public static String choices[][] = {
-            {"1","0","radical din 2","4/3"},
-            {"(1- tg a * tg b)/(tg a + tg b)","(tg a + tg b)/(a+b)","(tg a + tg b)/(1- tg a * tg b)","(tg a - tg b)/(1+ tg a * tg b)"},
-            {"C este paralel cu A","C se află între B și A","C este permendicular pe AB","C este jumătate din BA"},
-            {"-3","-6","2","5/2"},
-            {"(1+radical din 5)/4","(1-radical din 5)/4","(1-radical din 4)/5","1"},
-            {"7","2","6","5"}
+            {"1","0","radical din 2","Nu stiu","4"},
+            {"Nu stiu","(tg a + tg b)/(a+b)","(tg a + tg b)/(1- tg a * tg b)","(tg a - tg b)/(1+ tg a * tg b)","(tg a + tg b)/(1* tg a * tg b)"},
+            {"C este paralel cu A","C se află între B și A","Nu stiu","C este jumătate din BA","C nu este situat între B și A"},
+            {"-3","-6","2","5/2","Nu stiu"},
+            {"(1+radical din 5)/4","(1-radical din 5)/4","(1-radical din 4)/5","Nu stiu","4/(1+radical din 5)"},
+            {"7","2","Nu stiu","5","-1"}
     };
 
     public static String correctAnswers[] = {
@@ -37,11 +37,11 @@ public class QuestionAnswer {
     };
 
     public static String choices1[][] = {
-            {"B<A<C","B<C<A","A<B<C","A<C<B"},
-            {"-2","-1","-3","2"},
-            {"2","3","1","0"},
-            {"2","7","4","5"},
-            {"[-7,-1]","(-9,-3]","[-1,1]","[0,4)"}
+            {"B<A<C","B<C<A","Nu stiu","A<C<B","A<B<C"},
+            {"Nu stiu","-1","-3","2","7"},
+            {"2","3","1","Nu stiu","0"},
+            {"2","7","Nu stiu","5","-2"},
+            {"[-7,-1]","(-9,-3]","Nu stiu","[0,4)","(3,4)"}
     };
 
     public static String correctAnswers1[] = {

@@ -13,18 +13,18 @@ public class Test5 extends AppCompatActivity implements View.OnClickListener{
 
     TextView totalQuestionsTextView;
     TextView questionTextView;
-    Button ansA, ansB, ansC, ansD;
+    Button ansA, ansB, ansC, ansD, ansF ;
     Button submitBtn;
 
     int score=0;
-    int totalQuestion = QuestionAnswer.question.length;
+    int totalQuestion = QuestionAnswer.question1.length;
     int currentQuestionIndex = 0;
     String selectedAnswer = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test5);
+        setContentView(R.layout.activity_test6);
         getSupportActionBar().hide();
         totalQuestionsTextView = findViewById(R.id.total_question);
         questionTextView = findViewById(R.id.question);
@@ -32,15 +32,25 @@ public class Test5 extends AppCompatActivity implements View.OnClickListener{
         ansB = findViewById(R.id.ans_B);
         ansC = findViewById(R.id.ans_C);
         ansD = findViewById(R.id.ans_D);
+        ansF = findViewById(R.id.ans_F);
         submitBtn = findViewById(R.id.submit_btn);
+
         ansA.setOnClickListener(this);
         ansB.setOnClickListener(this);
         ansC.setOnClickListener(this);
         ansD.setOnClickListener(this);
+        ansF.setOnClickListener(this);
         submitBtn.setOnClickListener(this);
+
         totalQuestionsTextView.setText("Numărul total de întrebări: "+totalQuestion);
+
         loadNewQuestion();
+
+
+
+
     }
+
     @Override
     public void onClick(View view) {
 
@@ -48,6 +58,7 @@ public class Test5 extends AppCompatActivity implements View.OnClickListener{
         ansB.setBackgroundColor(Color.WHITE);
         ansC.setBackgroundColor(Color.WHITE);
         ansD.setBackgroundColor(Color.WHITE);
+        ansF.setBackgroundColor(Color.WHITE);
 
         Button clickedButton = (Button) view;
         if(clickedButton.getId()==R.id.submit_btn){
@@ -79,6 +90,7 @@ public class Test5 extends AppCompatActivity implements View.OnClickListener{
         ansB.setText(QuestionAnswer.choices[currentQuestionIndex][1]);
         ansC.setText(QuestionAnswer.choices[currentQuestionIndex][2]);
         ansD.setText(QuestionAnswer.choices[currentQuestionIndex][3]);
+        ansF.setText(QuestionAnswer.choices[currentQuestionIndex][4]);
 
     }
 

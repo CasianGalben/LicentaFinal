@@ -13,7 +13,7 @@ public class Test6 extends AppCompatActivity implements View.OnClickListener{
 
     TextView totalQuestionsTextView;
     TextView questionTextView;
-    Button ansA, ansB, ansC, ansD;
+    Button ansA, ansB, ansC, ansD, ansF ;
     Button submitBtn;
 
     int score=0;
@@ -32,12 +32,14 @@ public class Test6 extends AppCompatActivity implements View.OnClickListener{
         ansB = findViewById(R.id.ans_B);
         ansC = findViewById(R.id.ans_C);
         ansD = findViewById(R.id.ans_D);
+        ansF = findViewById(R.id.ans_F);
         submitBtn = findViewById(R.id.submit_btn);
 
         ansA.setOnClickListener(this);
         ansB.setOnClickListener(this);
         ansC.setOnClickListener(this);
         ansD.setOnClickListener(this);
+        ansF.setOnClickListener(this);
         submitBtn.setOnClickListener(this);
 
         totalQuestionsTextView.setText("Numărul total de întrebări: "+totalQuestion);
@@ -56,6 +58,7 @@ public class Test6 extends AppCompatActivity implements View.OnClickListener{
         ansB.setBackgroundColor(Color.WHITE);
         ansC.setBackgroundColor(Color.WHITE);
         ansD.setBackgroundColor(Color.WHITE);
+        ansF.setBackgroundColor(Color.WHITE);
 
         Button clickedButton = (Button) view;
         if(clickedButton.getId()==R.id.submit_btn){
@@ -87,6 +90,7 @@ public class Test6 extends AppCompatActivity implements View.OnClickListener{
         ansB.setText(QuestionAnswer.choices1[currentQuestionIndex][1]);
         ansC.setText(QuestionAnswer.choices1[currentQuestionIndex][2]);
         ansD.setText(QuestionAnswer.choices1[currentQuestionIndex][3]);
+        ansF.setText(QuestionAnswer.choices1[currentQuestionIndex][4]);
 
     }
 

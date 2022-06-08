@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="100dp"
     app:cardBackgroundColor="@color/CuloareP"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardElevation="8dp"
@@ -24,7 +24,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/firstName"
+
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold">
@@ -35,8 +35,8 @@
                 android:id="@+id/tvfirstName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
                 android:text="@string/defoult_name"
-                android:layout_marginLeft="8dp"
                 android:textColor="@color/black"
                 android:textSize="20dp"
                 android:textStyle="bold">

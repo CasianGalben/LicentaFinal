@@ -74,6 +74,15 @@
             android:text="D"
             android:textColor="@color/black"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_F"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/white"
+            android:text="F"
+            android:textColor="@color/black"/>
+
     </LinearLayout>
 
     <Button
@@ -81,7 +90,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/choices_layout"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="92dp"
         android:text="Trimite răspunsul" />
 
 
