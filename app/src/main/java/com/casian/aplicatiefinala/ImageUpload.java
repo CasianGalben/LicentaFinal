@@ -1,9 +1,14 @@
 package com.casian.aplicatiefinala;
 
+import androidx.activity.result.ActivityResult;
+import androidx.activity.result.ActivityResultCallback;
+import androidx.activity.result.ActivityResultLauncher;
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
 import android.net.Uri;
@@ -32,7 +37,7 @@ public class ImageUpload extends AppCompatActivity {
     ImageView imageView;
     Button saveBtn,uploadBtn;
     ProgressBar progressBar;
-    DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Images");
+    DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Image");
     StorageReference storageReference = FirebaseStorage.getInstance().getReference();
     Uri uri;
     @Override
@@ -54,7 +59,7 @@ public class ImageUpload extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_GET_CONTENT);
                 intent.setType("image/*");
-                startActivityForResult(intent,2);
+                someActivityResultLauncher.launch(intent);
             }
         });
         saveBtn.setOnClickListener(new View.OnClickListener() {
@@ -71,7 +76,7 @@ public class ImageUpload extends AppCompatActivity {
                     UploadImageToFireBase(uri);
                 }
                 else {
-                    Toast.makeText(ImageUpload.this, "Plese select images", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ImageUpload.this, "Alege o fotografie!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -79,7 +84,7 @@ public class ImageUpload extends AppCompatActivity {
     }
 
     private void UploadImageToFireBase(Uri uri) {
-        StorageReference file = storageReference.child(System.currentTimeMillis()+ "."+getFileExtension(uri));
+        StorageReference file = storageReference.child(System.currentTimeMillis()+"."+getFileExtension(uri));
         file.putFile(uri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
@@ -92,7 +97,7 @@ public class ImageUpload extends AppCompatActivity {
                         reference.child(Smodel).setValue(model);
                         progressBar.setVisibility(View.INVISIBLE);
                         imageView.setImageResource(R.drawable.ic_baseline_add_photo_alternate_24);
-                        Toast.makeText(ImageUpload.this,"Image Uploaded succ",Toast.LENGTH_LONG).show();
+                        Toast.makeText(ImageUpload.this,"Imaginea a fost încărcată cu succes",Toast.LENGTH_LONG).show();
 
                     }
                 });
@@ -108,7 +113,8 @@ public class ImageUpload extends AppCompatActivity {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Toast.makeText(ImageUpload.this,"Failed!!",Toast.LENGTH_LONG).show();
+                Toast.makeText(ImageUpload.this,"Imaginea nu a putut fi încărcată ",Toast.LENGTH_LONG).show();
+
 
             }
         });
@@ -122,13 +128,17 @@ public class ImageUpload extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 2 && requestCode == RESULT_OK && data != null){
-            uri=data.getData();
-            imageView.setImageURI(uri);
 
-        }
-    }
+    ActivityResultLauncher<Intent> someActivityResultLauncher = registerForActivityResult(
+            new ActivityResultContracts.StartActivityForResult(),
+            new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+                    if (result.getResultCode() == Activity.RESULT_OK ) {
+                        Intent data = result.getData();
+                        uri=data.getData();
+                        imageView.setImageURI(uri);
+                    }
+                }
+            });
 }

@@ -29,7 +29,7 @@ public class ShowActivity extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         models= new ArrayList<>();
-        adapter= new Adapter(models,this);
+        adapter= new Adapter(models, this);
         recyclerView.setAdapter(adapter);
         reference.addValueEventListener(new ValueEventListener() {
             @Override
