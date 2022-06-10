@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backsec"
+    tools:context=".ImageUpload">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_baseline_add_photo_alternate_24"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/image_view1"
+
+        />
+    
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_view1"
+        android:layout_margin="20dp"
+        android:text="Upload Image"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:id="@+id/btn_upload" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_upload"
+        android:layout_margin="20dp"
+        android:text="Save Image"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:id="@+id/btn_save" />
+
+    <ProgressBar
+        android:id="@+id/btn_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_save" />
+
+
+
+</RelativeLayout>
