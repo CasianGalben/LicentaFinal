@@ -53,7 +53,7 @@ public class ImageUpload extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_GET_CONTENT);
-                intent.setType("images/*");
+                intent.setType("image/*");
                 startActivityForResult(intent,2);
             }
         });
@@ -125,7 +125,7 @@ public class ImageUpload extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode==2 && requestCode==RESULT_OK && data != null){
+        if (requestCode == 2 && requestCode == RESULT_OK && data != null){
             uri=data.getData();
             imageView.setImageURI(uri);
 

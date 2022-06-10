@@ -21,9 +21,7 @@
         <activity
             android:name=".ImageUpload"
             android:exported="false" />
-        <activity
-            android:name=".MyAdapter1"
-            android:exported="false" />
+
         <activity
             android:name=".Test6"
             android:exported="false" />
