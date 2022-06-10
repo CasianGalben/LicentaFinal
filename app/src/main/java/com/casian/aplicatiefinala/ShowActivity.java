@@ -22,6 +22,7 @@ public class ShowActivity extends AppCompatActivity {
     DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Images");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show);
         recyclerView=findViewById(R.id.recycle_View);

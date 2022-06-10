@@ -37,6 +37,7 @@ public class ImageUpload extends AppCompatActivity {
     Uri uri;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_upload);
         imageView=findViewById(R.id.image_view1);
