@@ -19,7 +19,7 @@ public class ShowActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     Adapter adapter;
     ArrayList<ImageModel> models;
-    DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Images");
+    DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Image");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         getSupportActionBar().hide();

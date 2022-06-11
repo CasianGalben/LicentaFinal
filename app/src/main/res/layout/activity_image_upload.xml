@@ -7,6 +7,21 @@
     android:background="@drawable/backsec"
     tools:context=".ImageUpload">
 
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="185dp"
+
+        android:layout_height="48dp"
+
+        android:layout_marginTop="40dp"
+        android:text="Imagini"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView17"
         android:layout_width="137dp"
@@ -49,28 +64,13 @@
         android:layout_width="173dp"
 
         android:layout_height="157dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="80dp"
         android:text="Adaugă Imagine"
         android:textColor="@color/black"
         android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/btn_save"
-        android:layout_width="173dp"
-
-        android:layout_height="157dp"
-
-        android:layout_marginBottom="60dp"
-        android:text="Imagini Adăugate"
-        android:textColor="@color/black"
-        android:textSize="23sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintHorizontal_bias="0.525"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ProgressBar

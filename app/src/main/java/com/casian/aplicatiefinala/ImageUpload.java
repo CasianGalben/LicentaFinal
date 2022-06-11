@@ -96,7 +96,6 @@ public class ImageUpload extends AppCompatActivity {
                         String Smodel = reference.push().getKey();
                         reference.child(Smodel).setValue(model);
                         progressBar.setVisibility(View.INVISIBLE);
-                        imageView.setImageResource(R.drawable.ic_baseline_add_photo_alternate_24);
                         Toast.makeText(ImageUpload.this,"Imaginea a fost încărcată cu succes",Toast.LENGTH_LONG).show();
 
                     }
