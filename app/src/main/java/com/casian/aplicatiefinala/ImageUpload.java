@@ -65,7 +65,7 @@ public class ImageUpload extends AppCompatActivity {
         saveBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ImageUpload.this,ShowActivity.class);
+                Intent intent = new Intent(ImageUpload.this,Motivatie.class);
                 startActivity(intent);
             }
         });
